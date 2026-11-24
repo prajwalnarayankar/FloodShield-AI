@@ -1,9 +1,0 @@
-﻿AIL06 LAB - PROJECT SYSTEM ASSIGNMENT
-=====================================
-College: Canara Engineering College, Mangaluru
-Department: Artificial Intelligence & Machine Learning
-Lab: AIL06 (Project Lab / Intelligent Systems Laboratory)
-Project: FloodShield-AI
-
-System Number: [ENTER LAB PC NUMBER HERE, e.g., AIL06-SYS-12]
-Installed By: Prajwal Narayankar (4CB23AI067), Vignesh R Poojary (4CB23AI123), Amaresh Prabhu Barashatti (4CB23AI127)
