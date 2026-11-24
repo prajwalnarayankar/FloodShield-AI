@@ -1,8 +1,39 @@
+# Python
 venv/
 __pycache__/
-*.pyc
-node_modules/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Databases & local state
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment & credentials
 .env
-.vscode/
+.env.local
+.env.*.local
+!.env.example
+
+# Node / Frontend
+node_modules/
 dist/
 build/
+.npm
+npm-debug.log*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Duplicate / Backup folders
+backend - Copy/
+
+# Local Research & Report Working Files
+Dev_Files_Not_For_Lab/
+FLO0DSHIELD-AI_REPORT.pdf
+

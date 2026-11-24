@@ -1,0 +1,80 @@
+{
+  "model_type": "RandomForestClassifier",
+  "version": "RandomForest_v2.0",
+  "features": [
+    "water_level",
+    "water_level_change_1h",
+    "water_level_change_6h",
+    "water_level_change_24h",
+    "discharge",
+    "discharge_change",
+    "rainfall_1h",
+    "rainfall_6h",
+    "rainfall_24h",
+    "upstream_rainfall",
+    "upstream_water_level",
+    "temperature",
+    "humidity",
+    "warning_level_ratio",
+    "danger_level_ratio"
+  ],
+  "classes": [
+    "LOW",
+    "MEDIUM",
+    "HIGH",
+    "EXTREME"
+  ],
+  "accuracy": 0.9957,
+  "precision": 0.9957,
+  "recall": 0.9957,
+  "f1_score": 0.9957,
+  "confusion_matrix": [
+    [
+      11,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      29,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      239,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      418
+    ]
+  ],
+  "trained_at": "2026-09-06T22:37:18.772888",
+  "top_features": [
+    [
+      "danger_level_ratio",
+      0.2963021977053453
+    ],
+    [
+      "warning_level_ratio",
+      0.26512408819265715
+    ],
+    [
+      "rainfall_24h",
+      0.06377076382513001
+    ],
+    [
+      "discharge",
+      0.06108296537696508
+    ],
+    [
+      "water_level_change_6h",
+      0.05846738968526764
+    ]
+  ]
+}
